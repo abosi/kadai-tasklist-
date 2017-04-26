@@ -6,5 +6,5 @@
 
   <%= f.submit '投稿' %>
 <% end %>
-
+<%= render 'form', task: @tasks %>
 <%= link_to '一覧に戻る',tasks_path %>
